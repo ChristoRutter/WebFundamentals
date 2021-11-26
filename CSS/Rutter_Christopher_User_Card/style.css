@@ -1,0 +1,48 @@
+*{
+    padding: 5px;
+}
+h1{
+    font-size: 25px;
+    margin-bottom: -25px;
+}
+img{
+    height: 65px;
+    margin-bottom: -30px;
+}
+p{
+    margin-left: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+}
+.location img{
+    height: 15px;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+.skill{
+    margin-bottom: -40px;
+}
+.skill ul{
+    display: flex;
+    align-items: center;
+}
+.skill ul li{
+    list-style-type: none;
+    border-right: 1px solid black;
+}
+.skill ul li:last-child{
+    border-right: none;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    margin-top: -20px;
+}
+.profile img{
+    height: 15px;
+    margin-top: -20px;
+}

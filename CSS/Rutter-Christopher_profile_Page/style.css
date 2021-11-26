@@ -1,0 +1,158 @@
+*{
+    padding: 5px;
+}
+h1{
+    font-size: 25px;
+    margin-bottom: -25px;
+}
+h3{
+    display: inline;
+    background-color: black;
+    color:white;
+}
+img{
+    height: 65px;
+    margin-bottom: -30px;
+}
+p{
+    margin-left: 10px;
+}
+#main{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.numbers{
+    background-color: black;
+}
+.numbers p{
+    background-color: black;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+}
+.location img{
+    height: 15px;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+.skill{
+    margin-bottom: -40px;
+}
+.skill ul{
+    display: flex;
+    align-items: center;
+}
+.skill ul li{
+    list-style-type: none;
+    border-right: 1px solid black;
+}
+.skill ul li:last-child{
+    border-right: none;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    margin-top: -20px;
+}
+.profile img{
+    height: 15px;
+    margin-top: -20px;
+}
+#flexnav{
+    top: 0;
+}
+.nav{
+    font-family: 'Roboto';
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -23px;
+    width: 105%;
+    height: 60px;
+    margin-left: -23px;
+}
+.nav-title{
+    padding: 5px;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+   align-items: center;
+}
+li{
+    margin: 5px;
+    
+}
+#requests{
+    display: block;
+    margin: 20px;
+    margin-top: 0px;
+    width: 90%;
+}
+#connection{
+    display: inline-block;
+    vertical-align: top;
+}
+#people{
+    display: block;
+    width: 90%;
+    margin: 20px;
+}
+#people a{
+    border-top: 1px solid gray;
+    display: block;
+    width: 99%;
+}
+.names{
+    display: flex;
+}
+.names img{
+    height: 30px;
+}
+.names p{
+    font-size: 18px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+.body{
+    border: 1px solid gray;
+}
+.mainbar{
+    display:inline-block;
+}
+.education{
+    display: block;
+
+}
+.education h3{
+    display: block;
+    margin-bottom: 0px;
+}
+#current{
+    border: 1px solid black;
+    border-top: none;
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+}
+.bluebanner{
+    background-color: rgb(31, 73, 73);
+    margin-left: 10px;
+    margin-bottom: -10px;
+    height: 65px;
+    width: 310px;
+    
+}
+.user{
+    margin-top: -50px;
+}

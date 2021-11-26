@@ -1,0 +1,19 @@
+.nav{
+    font-family: 'Roboto';
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    padding: 5px;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+   align-items: center;
+}
+li{
+    margin: 5px;
+}

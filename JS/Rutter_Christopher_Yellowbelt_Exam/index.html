@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Just Dessert</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="title">
+                <h1>Just<span>Dessert</span></h1>
+                <div id="titleButtons">
+                    <button id="joinButton" onclick="this.remove()" >Join</button>
+                    <button id="loginButton">Login</button>
+                </div>
+            </div>
+            <div id="nav">
+                <form>
+                    <input type="text" name="search" id="searchtext" placeholder="SEARCH">
+                    <input onclick="searchMessage(event)" type="submit" id="submit" value="GO">
+                </form>
+                <a href="#">
+                    <img src="imgs/cake.png" alt="Cake">
+                    <p>Cake</p>
+                </a>
+                <a href="#">
+                    <img src="imgs/cookie.png" alt="Cookie">
+                    <p>Cookies</p>
+                </a>
+                <a href="#">
+                    <img src="imgs/ice-cream.png" alt="Ice Cream">
+                    <p>Ice cream</p>
+                </a>
+                <a href="#">
+                    <img src="imgs/pie.png" alt="Pie">
+                    <p>Pie</p>
+                </a>
+            </div>
+        </div>
+        <div id="body">
+            <div id="recipeOfTheDay">
+                <h2>Recipe of the Day</h2>
+                <img src="imgs/orange-tart.jpg" alt="Oragne Tart">
+                <div class="recipeDescription">
+                    <div class="recipeDetails">
+                        <p>Oragne Tea Jelly Tart</p>
+                        <p>By:<a href="#">yuripiano</a></p>
+                    </div>
+                    <div id="like">
+                        <img onclick="liked(this)" src="imgs/heart.png" alt="Black Heart">
+                        <p>68</p>
+                    </div>
+                </div>
+                <a href="">See Full Recipe</a>
+            </div>
+            <div id="suggestionRecipe">
+                <h3>Recommended For You</h3>
+                <img src="imgs/macarons.jpg" alt="Macarons">
+                <div class="recipeDescription">
+                    <div class="siderecipeDetails">
+                        <p>Macarons</p>
+                        <p>By:<a href="#">EmileW</a></p>
+                    </div>
+                    <div class="sidelike">
+                        <img onclick="liked(this)" src="imgs/heart.png" alt="Black Heart">
+                        <p>212</p>
+                    </div>
+                </div>
+                <img src="imgs/creme-brulee.jpg" alt="Creme Brulee">
+                <div class="recipeDescription">
+                    <div class="siderecipeDetails">
+                        <p>Crème brûlée</p>
+                        <p>By:<a href="#">MarisaG</a></p>
+                    </div>
+                    <div class="sidelike">
+                        <img onclick="liked(this)" src="imgs/heart.png" alt="Black Heart">
+                        <p>32</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

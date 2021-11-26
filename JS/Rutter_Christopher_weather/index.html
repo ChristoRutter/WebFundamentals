@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div id="head">
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="alert(`Loading weather report`)">Burbank</li>
+            <li onclick="alert(`Loading weather report`)">Chicago</li>
+            <li onclick="alert(`Loading weather report`)">Dallas</li>
+        </ul>
+    </div>
+    <div id="body">
+        <div id="city">
+            <h2>San Jose</h2>
+            <form>
+                <label for="">show temperature in </label>
+                <select id="temperatureUnits" name = "units" onchange="convert()">
+                    <option id="temperatureC" value="C">C</option>
+                    <option id="temperatureF" value="F">F</option>
+                </select>
+            </form>
+        </div>
+        <div id="weather">
+            <div class="today">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="rain day">
+                <p class = "forecast">some rain</p>
+                <div class="maxMin">
+                    <p class="red">24</p>
+                    <p class="blue">18</p>
+                </div>
+            </div>
+            <div class="today">
+                <h3>Today</h3>
+                <img src="assets/some_sun.png" alt="sunny day">
+                <p class = "forecast">some sun</p>
+                <div class="maxMin">
+                    <p class="red">27</p>
+                    <p class="blue">19</p>
+                </div>
+            </div>
+            <div class="today">
+                <h3>Today</h3>
+                <img src="assets/some_clouds.png" alt="cloudy day">
+                <p class = "forecast">some clouds</p>
+                <div class="maxMin">
+                    <p class="red">21</p>
+                    <p class="blue">16</p>
+                </div>
+            </div>
+            <div class="today">
+                <h3>Today</h3>
+                <img src="assets/some_sun.png" alt="rainy day">
+                <p class = "forecast">some sun</p>
+                <div class="maxMin">
+                    <p class="red">26</p>
+                    <p class="blue">21</p>
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+                <img src="assets/cookie.png" alt="cookie">
+                <div>
+                    <h4>Stop!Cookie time</h4>
+                    <p>We use cookies(sadly not edible ones) to personalize content and ads, to provide social media features adn to analyse our traffic. <a href="">Read more...</a></p>
+                </div>
+                <button onclick="removeCookie()">I Accept</button>
+        </div>
+    </div>
+</body>
+</html>

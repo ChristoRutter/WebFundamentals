@@ -1,0 +1,67 @@
+#head{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    margin: 0;
+}
+h1{
+    margin-left: 60px;
+}
+#head ul{
+    list-style: none;
+    display: flex;
+    margin-right: 60px;
+}
+#head ul li{
+    margin: 10px;
+    font-size: 22px;
+}
+#city{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin: 0 80px;
+}
+#city form{
+    margin-top: 20px;
+}
+#weather{
+    display: flex;
+    justify-content: space-evenly;
+}
+.today{
+    background-color: lightgray;
+    margin: 10px;
+}
+.today img{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+.forecast{
+    text-align: center;
+}
+.maxMin{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.cookie{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    height: 120px;
+    margin-left: 20%;
+    
+}
+.cookie button{
+    height: 60px;
+    width: 120px;
+    margin: 20px;
+    background-color: lightblue;
+}

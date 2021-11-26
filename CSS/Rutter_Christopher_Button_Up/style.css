@@ -1,0 +1,30 @@
+#search{
+    border: cadetblue 3px solid;
+    color: cadetblue;
+    border-radius: 100px;
+    height: 30px;
+    width: 130px;
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+#plus{
+    background-color:cyan;
+    border: cyan 1px solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin: 10px;
+    font-size: 22px;
+    color: white;
+}
+#account{
+    border: black 3px solid;
+    background-color: rgb(70, 70, 230);
+    color: white;
+    height: 30px;
+    width: 130px;
+    margin: 10px;
+    box-shadow: 3px 3px 0px black;
+}
